@@ -1,0 +1,24 @@
+.DropDown {
+  /* border: 2px solid black; */
+  border: 1.5px solid;
+  border-radius: 2px;
+  margin: 5px;
+}
+
+.DropDown-collapse {
+  border-color: black;
+}
+
+.DropDown-collapse:hover {
+  border-color: brown;
+}
+
+.DropDown-expand {
+  border-color: burlywood;
+}
+
+.DropDown-current {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
